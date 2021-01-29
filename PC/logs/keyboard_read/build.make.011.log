@@ -1,0 +1,43 @@
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target keyboard_read_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/keyboard_read_node.dir/src/keyboard_read_node.cpp.o[0m
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:[m[K In function ‘[01m[Kstd_msgs::Char getch()[m[K’:
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:13:31:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kstd_msgs::Char[m[K’ {aka ‘[01m[Kstd_msgs::Char_<std::allocator<void> >[m[K’} requested
+   13 |     std_msgs::Char c = [01;31m[Kgetchar()[m[K;  // read character (non-blocking)
+      |                        [01;31m[K~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/serialization.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:1[m[K:
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value(const M&) [with M = unsigned char][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:254:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum(const M&) [with M = unsigned char][m[K’
+[01m[K/opt/ros/noetic/include/ros/publisher.h:114:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = unsigned char][m[K’
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:31:34:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:125:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[K__getMD5Sum[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kconst unsigned char[m[K’
+  125 |     return [01;31m[Km.__getMD5Sum[m[K().c_str();
+      |            [01;31m[K~~^~~~~~~~~~~[m[K
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value(const M&) [with M = unsigned char][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:263:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype(const M&) [with M = unsigned char][m[K’
+[01m[K/opt/ros/noetic/include/ros/publisher.h:114:7:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = unsigned char][m[K’
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:31:34:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:142:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[K__getDataType[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kconst unsigned char[m[K’
+  142 |     return [01;31m[Km.__getDataType[m[K().c_str();
+      |            [01;31m[K~~^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/keyboard_read_node.dir/build.make:63: CMakeFiles/keyboard_read_node.dir/src/keyboard_read_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/keyboard_read_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

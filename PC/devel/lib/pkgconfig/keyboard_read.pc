@@ -1,0 +1,1 @@
+/home/mondi/catkin_ws/devel/.private/keyboard_read/lib/pkgconfig/keyboard_read.pc

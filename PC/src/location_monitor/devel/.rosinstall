@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mondi/catkin_ws/src/location_monitor/devel/setup.sh

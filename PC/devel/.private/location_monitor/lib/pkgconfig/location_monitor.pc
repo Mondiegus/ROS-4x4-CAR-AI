@@ -1,0 +1,8 @@
+prefix=/home/mondi/catkin_ws/devel/.private/location_monitor
+
+Name: location_monitor
+Description: Description of location_monitor
+Version: 0.0.0
+Cflags: -I/home/mondi/catkin_ws/devel/.private/location_monitor/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime nav_msgs roscpp rospy std_msgs

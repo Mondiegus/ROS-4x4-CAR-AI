@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/mondi/catkin_ws/src/location_monitor/devel -DCMAKE_INSTALL_PREFIX=/home/mondi/catkin_ws/src/location_monitor/install -G Unix Makefiles

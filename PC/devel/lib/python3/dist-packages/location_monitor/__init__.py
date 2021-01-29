@@ -1,0 +1,1 @@
+/home/mondi/catkin_ws/devel/.private/location_monitor/lib/python3/dist-packages/location_monitor/__init__.py

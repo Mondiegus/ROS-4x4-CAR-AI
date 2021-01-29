@@ -1,0 +1,8 @@
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:12:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetch[m[K’ was not declared in this scope; did you mean ‘[01m[Kgetc[m[K’?
+   12 |         int c = [01;31m[Kgetch[m[K();   // call your non-blocking input function
+      |                 [01;31m[K^~~~~[m[K
+      |                 [32m[Kgetc[m[K
+make[2]: *** [CMakeFiles/keyboard_read_node.dir/build.make:63: CMakeFiles/keyboard_read_node.dir/src/keyboard_read_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/keyboard_read_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/home/mondi/catkin_ws/devel/.private/keyboard_read/share/keyboard_read/cmake/keyboard_readConfig.cmake

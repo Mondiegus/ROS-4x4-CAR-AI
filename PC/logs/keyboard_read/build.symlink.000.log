@@ -1,0 +1,4 @@
+Symlinking /home/mondi/catkin_ws/devel/lib/pkgconfig/keyboard_read.pc
+Symlinking /home/mondi/catkin_ws/devel/lib/keyboard_read/keyboard_read_node
+Symlinking /home/mondi/catkin_ws/devel/share/keyboard_read/cmake/keyboard_readConfig.cmake
+Symlinking /home/mondi/catkin_ws/devel/share/keyboard_read/cmake/keyboard_readConfig-version.cmake

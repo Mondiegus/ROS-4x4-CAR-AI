@@ -1,0 +1,29 @@
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:26:69:[m[K [01;31m[Kerror: [m[K‘[01m[KInt16[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   26 |     ros::Publisher publishKey = nh_keyboardRead.advertise<std_msgs::[01;31m[KInt16[m[K>("pressedKey", 5);
+      |                                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:26:69:[m[K [01;31m[Kerror: [m[K‘[01m[KInt16[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:26:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [11], int)[m[K’
+   26 |     ros::Publisher publishKey = nh_keyboardRead.advertise<std_msgs::Int16>("pressedKey", 5[01;31m[K)[m[K;
+      |                                                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:26:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     ros::Publisher publishKey = nh_keyboardRead.advertise<std_msgs::Int16>("pressedKey", 5[01;31m[K)[m[K;
+      |                                                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mondi/catkin_ws/src/keyboard_read/src/keyboard_read_node.cpp:26:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     ros::Publisher publishKey = nh_keyboardRead.advertise<std_msgs::Int16>("pressedKey", 5[01;31m[K)[m[K;
+      |                                                                                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/keyboard_read_node.dir/build.make:63: CMakeFiles/keyboard_read_node.dir/src/keyboard_read_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/keyboard_read_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
