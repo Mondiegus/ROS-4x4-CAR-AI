@@ -1,0 +1,51 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pi/catkin_ws/build/depth_image_proc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6010c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6010c.dir/build.make CMakeFiles/cmTC_6010c.dir/build
+make[1]: Wejście do katalogu '/home/pi/catkin_ws/build/depth_image_proc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6010c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6010c.dir/CheckSymbolExists.c.o   -c /home/pi/catkin_ws/build/depth_image_proc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6010c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6010c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6010c.dir/CheckSymbolExists.c.o  -o cmTC_6010c 
+/usr/bin/ld: CMakeFiles/cmTC_6010c.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6010c.dir/build.make:87: cmTC_6010c] Błąd 1
+make[1]: Opuszczenie katalogu '/home/pi/catkin_ws/build/depth_image_proc/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6010c/fast] Błąd 2
+
+File /home/pi/catkin_ws/build/depth_image_proc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/catkin_ws/build/depth_image_proc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a172a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a172a.dir/build.make CMakeFiles/cmTC_a172a.dir/build
+make[1]: Wejście do katalogu '/home/pi/catkin_ws/build/depth_image_proc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a172a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a172a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a172a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a172a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a172a.dir/CheckFunctionExists.c.o  -o cmTC_a172a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a172a.dir/build.make:87: cmTC_a172a] Błąd 1
+make[1]: Opuszczenie katalogu '/home/pi/catkin_ws/build/depth_image_proc/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a172a/fast] Błąd 2
+
+

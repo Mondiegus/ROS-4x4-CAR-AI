@@ -1,0 +1,4 @@
+Symlinking /home/pi/catkin_ws/devel/share/talker/cmake/talkerConfig.cmake
+Symlinking /home/pi/catkin_ws/devel/share/talker/cmake/talkerConfig-version.cmake
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/talker.pc
+Symlinking /home/pi/catkin_ws/devel/lib/talker/talker_node

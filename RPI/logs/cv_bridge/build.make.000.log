@@ -1,0 +1,85 @@
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target cv_bridge[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/pi/catkin_ws/devel/.private/cv_bridge/lib/libcv_bridge.so[0m
+[ 50%] Built target cv_bridge
+[35m[1mScanning dependencies of target cv_bridge_boost[0m
+[ 66%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv4.cpp.o[0m
+In file included from [01m[K/usr/include/boost/python/overloads.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:51[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/vision_opencv/cv_bridge/src/module.hpp:21[m[K,
+                 from [01m[K/home/pi/catkin_ws/src/vision_opencv/cv_bridge/src/module.cpp:35[m[K:
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:[m[K In function ‘[01m[Kvoid boost::python::detail::define_with_defaults(const char*, const OverloadsT&, NameSpaceT&, const SigT&) [with OverloadsT = cvtColorForDisplayWrap_overloads; NameSpaceT = boost::python::scope; SigT = boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double>][m[K’:
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:250:62:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KcvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >[m[K’ changed in GCC 7.1
+       [01;36m[Kdefine_with_defaults_helper<stubs_type::n_funcs-1>::def([m[K
+       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+ [01;36m[K          name[m[K
+           [01;36m[K~~~~[m[K                                                
+ [01;36m[K          , gen_type()[m[K
+           [01;36m[K~~~~~~~~~~~~[m[K                                        
+ [01;36m[K          , overloads.keywords()[m[K
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                              
+ [01;36m[K          , overloads.call_policies()[m[K
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                         
+ [01;36m[K          , name_space[m[K
+           [01;36m[K~~~~~~~~~~~~[m[K                                        
+ [01;36m[K          , overloads.doc_string())[m[K;
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                           
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:[m[K In static member function ‘[01m[Kstatic void boost::python::detail::define_with_defaults_helper<N>::def(const char*, StubsT, boost::python::detail::keyword_range, const CallPolicies&, NameSpaceT&, const char*) [with StubsT = cvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >; CallPolicies = boost::python::default_call_policies; NameSpaceT = boost::python::scope; int N = 3][m[K’:
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:162:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KcvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >[m[K’ changed in GCC 7.1
+       [01;36m[Kdef[m[K(
+       [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:177:48:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KcvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >[m[K’ changed in GCC 7.1
+           [01;36m[Kdefine_with_defaults_helper<N-1>::def(name, stubs, kw, policies, name_space, doc)[m[K;
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:[m[K In static member function ‘[01m[Kstatic void boost::python::detail::define_with_defaults_helper<N>::def(const char*, StubsT, boost::python::detail::keyword_range, const CallPolicies&, NameSpaceT&, const char*) [with StubsT = cvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >; CallPolicies = boost::python::default_call_policies; NameSpaceT = boost::python::scope; int N = 2][m[K’:
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:162:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KcvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >[m[K’ changed in GCC 7.1
+       [01;36m[Kdef[m[K(
+       [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:177:48:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KcvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >[m[K’ changed in GCC 7.1
+           [01;36m[Kdefine_with_defaults_helper<N-1>::def(name, stubs, kw, policies, name_space, doc)[m[K;
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:[m[K In static member function ‘[01m[Kstatic void boost::python::detail::define_with_defaults_helper<N>::def(const char*, StubsT, boost::python::detail::keyword_range, const CallPolicies&, NameSpaceT&, const char*) [with StubsT = cvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >; CallPolicies = boost::python::default_call_policies; NameSpaceT = boost::python::scope; int N = 1][m[K’:
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:162:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KcvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >[m[K’ changed in GCC 7.1
+       [01;36m[Kdef[m[K(
+       [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:177:48:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KcvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >[m[K’ changed in GCC 7.1
+           [01;36m[Kdefine_with_defaults_helper<N-1>::def(name, stubs, kw, policies, name_space, doc)[m[K;
+           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:[m[K In static member function ‘[01m[Kstatic void boost::python::detail::define_with_defaults_helper<0>::def(const char*, StubsT, const keyword_range&, const CallPolicies&, NameSpaceT&, const char*) [with StubsT = cvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >; CallPolicies = boost::python::default_call_policies; NameSpaceT = boost::python::scope][m[K’:
+[01m[K/usr/include/boost/python/detail/defaults_def.hpp:186:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KcvtColorForDisplayWrap_overloads::non_void_return_type::gen<boost::mpl::vector7<boost::python::api::object, boost::python::api::object, const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, bool, double, double> >[m[K’ changed in GCC 7.1
+       [01;36m[Kdef[m[K(
+       [01;36m[K^~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/pi/catkin_ws/devel/.private/cv_bridge/lib/python3/dist-packages/cv_bridge/boost/cv_bridge_boost.so[0m
+[100%] Built target cv_bridge_boost

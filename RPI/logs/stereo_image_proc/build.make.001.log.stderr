@@ -1,0 +1,298 @@
+In file included from [01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp:35[m[K:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:172:23:[m[K [01;31m[Kerror: [m[K‘[01m[KStereoBM[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   mutable cv::Ptr<cv::[01;31m[KStereoBM[m[K> block_matcher_; // contains scratch buffers for block matching
+                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:172:23:[m[K [01;31m[Kerror: [m[K‘[01m[KStereoBM[m[K’ is not a member of ‘[01m[Kcv[m[K’
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:172:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   mutable cv::Ptr<cv::StereoBM[01;31m[K>[m[K block_matcher_; // contains scratch buffers for block matching
+                               [01;31m[K^[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:173:23:[m[K [01;31m[Kerror: [m[K‘[01m[KStereoSGBM[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   mutable cv::Ptr<cv::[01;31m[KStereoSGBM[m[K> sg_block_matcher_;
+                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:173:23:[m[K [01;31m[Kerror: [m[K‘[01m[KStereoSGBM[m[K’ is not a member of ‘[01m[Kcv[m[K’
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:173:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   mutable cv::Ptr<cv::StereoSGBM[01;31m[K>[m[K sg_block_matcher_;
+                                 [01;31m[K^[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In constructor ‘[01m[Kstereo_image_proc::StereoProcessor::StereoProcessor()[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:61:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv::StereoBM[m[K’ has not been declared
+     block_matcher_ = cv::[01;31m[KStereoBM[m[K::create();
+                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:62:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv::StereoSGBM[m[K’ has not been declared
+     sg_block_matcher_ = cv::[01;31m[KStereoSGBM[m[K::create(1, 1, 10);
+                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getPreFilterCap() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:213:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     return block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                          [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:224:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getPreFilterCap, setPreFilterCap, int, getPreFilterCap, setPreFilterCap)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:214:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return sg_block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                           [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:224:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getPreFilterCap, setPreFilterCap, int, getPreFilterCap, setPreFilterCap)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setPreFilterCap(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:219:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                 [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:224:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getPreFilterCap, setPreFilterCap, int, getPreFilterCap, setPreFilterCap)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:220:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   sg_block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                    [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:224:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getPreFilterCap, setPreFilterCap, int, getPreFilterCap, setPreFilterCap)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getCorrelationWindowSize() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:213:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     return block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                          [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:225:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getCorrelationWindowSize, setCorrelationWindowSize, int, getBlockSize, setBlockSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:214:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return sg_block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                           [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:225:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getCorrelationWindowSize, setCorrelationWindowSize, int, getBlockSize, setBlockSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setCorrelationWindowSize(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:219:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                 [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:225:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getCorrelationWindowSize, setCorrelationWindowSize, int, getBlockSize, setBlockSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:220:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   sg_block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                    [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:225:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getCorrelationWindowSize, setCorrelationWindowSize, int, getBlockSize, setBlockSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getMinDisparity() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:213:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     return block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                          [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:226:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getMinDisparity, setMinDisparity, int, getMinDisparity, setMinDisparity)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:214:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return sg_block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                           [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:226:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getMinDisparity, setMinDisparity, int, getMinDisparity, setMinDisparity)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setMinDisparity(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:219:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                 [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:226:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getMinDisparity, setMinDisparity, int, getMinDisparity, setMinDisparity)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:220:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   sg_block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                    [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:226:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getMinDisparity, setMinDisparity, int, getMinDisparity, setMinDisparity)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getDisparityRange() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:213:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     return block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                          [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:227:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getDisparityRange, setDisparityRange, int, getNumDisparities, setNumDisparities)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:214:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return sg_block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                           [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:227:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getDisparityRange, setDisparityRange, int, getNumDisparities, setNumDisparities)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setDisparityRange(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:219:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                 [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:227:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getDisparityRange, setDisparityRange, int, getNumDisparities, setNumDisparities)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:220:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   sg_block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                    [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:227:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getDisparityRange, setDisparityRange, int, getNumDisparities, setNumDisparities)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kfloat stereo_image_proc::StereoProcessor::getUniquenessRatio() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:213:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     return block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                          [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:228:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getUniquenessRatio, setUniquenessRatio, float, getUniquenessRatio, setUniquenessRatio)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:214:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return sg_block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                           [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:228:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getUniquenessRatio, setUniquenessRatio, float, getUniquenessRatio, setUniquenessRatio)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setUniquenessRatio(float)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:219:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                 [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:228:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getUniquenessRatio, setUniquenessRatio, float, getUniquenessRatio, setUniquenessRatio)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:220:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   sg_block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                    [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:228:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getUniquenessRatio, setUniquenessRatio, float, getUniquenessRatio, setUniquenessRatio)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getSpeckleSize() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:213:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     return block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                          [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:229:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getSpeckleSize, setSpeckleSize, int, getSpeckleWindowSize, setSpeckleWindowSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:214:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return sg_block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                           [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:229:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getSpeckleSize, setSpeckleSize, int, getSpeckleWindowSize, setSpeckleWindowSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setSpeckleSize(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:219:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                 [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:229:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getSpeckleSize, setSpeckleSize, int, getSpeckleWindowSize, setSpeckleWindowSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:220:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   sg_block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                    [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:229:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getSpeckleSize, setSpeckleSize, int, getSpeckleWindowSize, setSpeckleWindowSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getSpeckleRange() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:213:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     return block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                          [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:230:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getSpeckleRange, setSpeckleRange, int, getSpeckleRange, setSpeckleRange)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:214:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return sg_block_matcher_[01;31m[K->[m[KGET_OPENCV(); \
+                           [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:230:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getSpeckleRange, setSpeckleRange, int, getSpeckleRange, setSpeckleRange)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setSpeckleRange(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:219:17:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                 [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:230:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getSpeckleRange, setSpeckleRange, int, getSpeckleRange, setSpeckleRange)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:220:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   sg_block_matcher_[01;31m[K->[m[KSET_OPENCV(param); \
+                    [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:230:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_OPENCV3[m[K(getSpeckleRange, setSpeckleRange, int, getSpeckleRange, setSpeckleRange)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getPreFilterSize() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:266:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return MEMBER[01;31m[K->[m[KGET_OPENCV(); \
+                [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:276:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(block_matcher_, getPreFilterSize, setPreFilterSize, int, getPreFilterSize, setPreFilterSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setPreFilterSize(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:271:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   MEMBER[01;31m[K->[m[KSET_OPENCV(param); \
+         [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:276:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(block_matcher_, getPreFilterSize, setPreFilterSize, int, getPreFilterSize, setPreFilterSize)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getTextureThreshold() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:266:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return MEMBER[01;31m[K->[m[KGET_OPENCV(); \
+                [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:277:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(block_matcher_, getTextureThreshold, setTextureThreshold, int, getTextureThreshold, setTextureThreshold)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setTextureThreshold(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:271:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   MEMBER[01;31m[K->[m[KSET_OPENCV(param); \
+         [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:277:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(block_matcher_, getTextureThreshold, setTextureThreshold, int, getTextureThreshold, setTextureThreshold)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getSgbmMode() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:266:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return MEMBER[01;31m[K->[m[KGET_OPENCV(); \
+                [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:286:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(sg_block_matcher_, getSgbmMode, setSgbmMode, int, getMode, setMode)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setSgbmMode(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:271:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   MEMBER[01;31m[K->[m[KSET_OPENCV(param); \
+         [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:286:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(sg_block_matcher_, getSgbmMode, setSgbmMode, int, getMode, setMode)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getP1() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:266:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return MEMBER[01;31m[K->[m[KGET_OPENCV(); \
+                [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:287:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(sg_block_matcher_, getP1, setP1, int, getP1, setP1)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setP1(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:271:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   MEMBER[01;31m[K->[m[KSET_OPENCV(param); \
+         [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:287:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(sg_block_matcher_, getP1, setP1, int, getP1, setP1)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getP2() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:266:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return MEMBER[01;31m[K->[m[KGET_OPENCV(); \
+                [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:288:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(sg_block_matcher_, getP2, setP2, int, getP2, setP2)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setP2(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:271:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   MEMBER[01;31m[K->[m[KSET_OPENCV(param); \
+         [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:288:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(sg_block_matcher_, getP2, setP2, int, getP2, setP2)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kint stereo_image_proc::StereoProcessor::getDisp12MaxDiff() const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:266:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   return MEMBER[01;31m[K->[m[KGET_OPENCV(); \
+                [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:289:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(sg_block_matcher_, getDisp12MaxDiff, setDisp12MaxDiff, int, getDisp12MaxDiff, setDisp12MaxDiff)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::setDisp12MaxDiff(int)[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:271:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   MEMBER[01;31m[K->[m[KSET_OPENCV(param); \
+         [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h:289:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K’
+ [01;36m[KSTEREO_IMAGE_PROC_ONLY_OPENCV3[m[K(sg_block_matcher_, getDisp12MaxDiff, setDisp12MaxDiff, int, getDisp12MaxDiff, setDisp12MaxDiff)
+ [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp:[m[K In member function ‘[01m[Kvoid stereo_image_proc::StereoProcessor::processDisparity(const cv::Mat&, const cv::Mat&, const image_geometry::StereoCameraModel&, stereo_msgs::DisparityImage&) const[m[K’:
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp:94:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     block_matcher_[01;31m[K->[m[Kcompute(left_rect, right_rect, disparity16_);
+                   [01;31m[K^~[m[K
+[01m[K/home/pi/catkin_ws/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp:96:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     sg_block_matcher_[01;31m[K->[m[Kcompute(left_rect, right_rect, disparity16_);
+                      [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/stereo_image_proc.dir/build.make:63: CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.o] Błąd 1
+make[1]: *** [CMakeFiles/Makefile2:73: CMakeFiles/stereo_image_proc.dir/all] Błąd 2
+make: *** [Makefile:141: all] Błąd 2

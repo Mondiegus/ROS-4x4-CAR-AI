@@ -1,0 +1,7 @@
+Symlinking /home/pi/catkin_ws/devel/share/image_transport/cmake/image_transportConfig.cmake
+Symlinking /home/pi/catkin_ws/devel/share/image_transport/cmake/image_transportConfig-version.cmake
+Symlinking /home/pi/catkin_ws/devel/lib/libimage_transport.so
+Symlinking /home/pi/catkin_ws/devel/lib/libimage_transport_plugins.so
+Symlinking /home/pi/catkin_ws/devel/lib/pkgconfig/image_transport.pc
+Symlinking /home/pi/catkin_ws/devel/lib/image_transport/list_transports
+Symlinking /home/pi/catkin_ws/devel/lib/image_transport/republish

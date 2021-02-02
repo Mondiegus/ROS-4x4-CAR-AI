@@ -1,0 +1,1 @@
+/home/pi/catkin_ws/devel/.private/talker/share/talker/cmake/talkerConfig-version.cmake
