@@ -26,16 +26,18 @@ What is the clue of this project? I decided to learn something more and new. Mai
 
 # What's the progress?
 ## Ver. 0.1
-+ Simple ECU based on L293D is already made for controlling potentially 5 engines and works 
-+ WiFi connection is working
-+ Car may be easily controlled by XBox gamepad or Logitech DFGT
-+ Image from internet camera may be send from RPI to PC
-+ Car is driving
-+ Engines are powered by original "noname" 4 LR6 accumulators and RPI 3B+ is by powerbank
-+ Simple ROS_Darknet analyse is working
-- L293D have to be changed, because maximum current for output is only 0.6A - front axle and steering column have huge problem even to move
-- Car is extremely slow 
-- My only powerbank is huge and very heavy, RPI also need to be powered by original batteries - wires made already ;)
-- Image from camera have very low FPS - it may be because RPI or because camera is crap 
-- Only 3 engines on a car- one DC for front axle, one DC for rear axle and one DC for steering
+* PROS
+	* Simple ECU based on L293D is already made for controlling potentially 5 engines and works 
+	* WiFi connection is working
+	* Car may be easily controlled by XBox gamepad or Logitech DFGT
+	* Image from internet camera may be send from RPI to PC
+	* Car is driving
+	* Engines are powered by original "noname" 4 LR6 accumulators and RPI 3B+ is by powerbank
+	* Simple ROS_Darknet analyse is working
+* CONS
+	* L293D have to be changed, because maximum current for output is only 0.6A - front axle and steering column have huge problem even to move
+	* Car is extremely slow 
+	* My only powerbank is huge and very heavy, RPI also need to be powered by original batteries - wires made already ;)
+	* Image from camera have very low FPS - it may be because RPI or because camera is crap 
+	* Only 3 engines on a car- one DC for front axle, one DC for rear axle and one DC for steering
 
