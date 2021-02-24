@@ -1,0 +1,3 @@
+Twisted wires=EnableEn3,EnableEn3.1,EnableEn3.2,LockAxles,EnableEn2.2,EnableEn2.1,DirEn1.2,DirEn1.1,DrvDirection
+USB 2.0 A=+5V_CAM,D+_CAM,D-_CAM,GND_CAM,Sh_CAM
+USB Wire=+5v,Tx,Rx,ModeDet,GND
