@@ -1,0 +1,85 @@
+Added Member To Class: ClassName=U_5VCircuit Member=Component *1 AP62301Z6-7
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component C1_U_DriverCircuit1 (C1) 100µF
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component C1_U_DriverCircuit2 (C1) 100µF
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component C1_U_DriverCircuit3 (C1) 100µF
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component C1_U_DriverCircuit4 (C1) 100µF
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component C2_U_DriverCircuit1 (C2) Cap
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component C2_U_DriverCircuit2 (C2) Cap
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component C2_U_DriverCircuit3 (C2) Cap
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component C2_U_DriverCircuit4 (C2) Cap
+Added Member To Class: ClassName=U_5VCircuit Member=Component C3 Cap
+Added Member To Class: ClassName=U_5VCircuit Member=Component C4 Cap
+Added Member To Class: ClassName=U_5VCircuit Member=Component C5 Cap
+Added Member To Class: ClassName=U_5VCircuit Member=Component C6 Cap
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D1 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D2 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D3 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D4 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D5 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D6 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D7 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D8 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D9 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D10 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D11 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D12 Diode
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D13 LED2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component D14 LED2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component F1 Fuse 2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component F2 Fuse 2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component F3 Fuse 2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component F4 Fuse 2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component F5 Fuse 2
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component FR1_U_DriverCircuit1 (FR1) BD63150AFM-E2
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component FR1_U_DriverCircuit2 (FR1) BD63150AFM-E2
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component FR1_U_DriverCircuit3 (FR1) BD63150AFM-E2
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component FR1_U_DriverCircuit4 (FR1) BD63150AFM-E2
+Added Member To Class: ClassName=U_5VCircuit Member=Component L1 Inductor
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P1 Header 2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P2 Header 2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P3 Header 2
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P4 Header 4
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P5 Header 4
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P6 Header 3
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P7 Header 3
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P8 Header 3
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P9 Header 3
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P10 Header 4
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component P11 Header 4
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component R1_U_DriverCircuit1 (R1) Res1
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component R1_U_DriverCircuit2 (R1) Res1
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component R1_U_DriverCircuit3 (R1) Res1
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component R1_U_DriverCircuit4 (R1) Res1
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component R2_U_DriverCircuit1 (R2) Res1
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component R2_U_DriverCircuit2 (R2) Res1
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component R2_U_DriverCircuit3 (R2) Res1
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component R2_U_DriverCircuit4 (R2) Res1
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component R3_U_DriverCircuit1 (R3) Res1
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component R3_U_DriverCircuit2 (R3) Res1
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component R3_U_DriverCircuit3 (R3) Res1
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component R3_U_DriverCircuit4 (R3) Res1
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component R4_U_DriverCircuit1 (R4) Res1
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component R4_U_DriverCircuit2 (R4) Res1
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component R4_U_DriverCircuit3 (R4) Res1
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component R4_U_DriverCircuit4 (R4) Res1
+Added Member To Class: ClassName=U_5VCircuit Member=Component R5 Res1
+Added Member To Class: ClassName=U_5VCircuit Member=Component R6 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R7 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R8 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R9 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R10 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R11 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R12 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R13 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R14 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R15 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R16 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R17 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R18 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R19 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R20 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R21 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R22 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R23 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R24 Res1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component R25 Res1

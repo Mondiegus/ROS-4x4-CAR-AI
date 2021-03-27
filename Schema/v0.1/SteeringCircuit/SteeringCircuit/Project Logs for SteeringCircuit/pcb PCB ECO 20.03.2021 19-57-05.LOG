@@ -1,0 +1,122 @@
+Change Net Name : Old Net Name=Net*1_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_3 New Net Name=NetPin_Designator_2
+Change Net Name : Old Net Name=Net*1_4 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_5 New Net Name=NetPin_Designator_5
+Change Net Name : Old Net Name=Net*1_6 New Net Name=NetPin_Designator_2
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit1_16 New Net Name=NetPin_Designator_2
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit1_20 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit1_32 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit2_16 New Net Name=NetPin_Designator_2
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit2_20 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit2_32 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit3_16 New Net Name=NetPin_Designator_2
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit3_20 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit3_32 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit4_16 New Net Name=NetPin_Designator_2
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit4_20 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=Net*1_DC_U_DriverCircuit4_32 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD1_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD3_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD4_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD6_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD7_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD8_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD9_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD10_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD11_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetD12_m_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetP4_1 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetP4_2 New Net Name=NetPin_Designator_1
+Change Net Name : Old Net Name=NetP4_3 New Net Name=NetPin_Designator_2
+Change Net Name : Old Net Name=NetP4_4 New Net Name=NetPin_Designator_2
+Change Net Name : Old Net Name=NetR23_1 New Net Name=NetPin_Designator_1
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R2_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R13_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D14_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R12_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P7_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R16_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R10_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D13_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D4_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R17_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P1_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D6_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P5_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R11_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R6_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D7_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R19_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P10_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P9_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D3_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D11_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (F3_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P8_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P2_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R18_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R8_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D1_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (F4_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R4_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D10_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R3_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R9_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D5_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (F5_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P11_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R14_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D2_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P3_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R15_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (F2_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R5_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P6_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R7_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (P4_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D9_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D12_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (D8_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (F1_m)
+Added Member To Class: ClassName=PowerFull_car_engineSteering Member=Component Pin_Designator (R1_m)
+Added Member To Class: ClassName=U_5VCircuit Member=Component Pin_Designator (L1_5V)
+Added Member To Class: ClassName=U_5VCircuit Member=Component Pin_Designator (*1_5V)
+Added Member To Class: ClassName=U_5VCircuit Member=Component Pin_Designator (C1_5V)
+Added Member To Class: ClassName=U_5VCircuit Member=Component Pin_Designator (R2_5V)
+Added Member To Class: ClassName=U_5VCircuit Member=Component Pin_Designator (C2_5V)
+Added Member To Class: ClassName=U_5VCircuit Member=Component Pin_Designator (C4_5V)
+Added Member To Class: ClassName=U_5VCircuit Member=Component Pin_Designator (R1_5V)
+Added Member To Class: ClassName=U_5VCircuit Member=Component Pin_Designator (C3_5V)
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component Pin_Designator (R2_DC)
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component Pin_Designator (R4_DC)
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component Pin_Designator (C1_DC)
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component Pin_Designator (R3_DC)
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component Pin_Designator (*1_DC)
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component Pin_Designator (R1_DC)
+Added Member To Class: ClassName=U_DriverCircuit1 Member=Component Pin_Designator (C2_DC)
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component Pin_Designator (*1_DC)
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component Pin_Designator (R2_DC)
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component Pin_Designator (C2_DC)
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component Pin_Designator (R4_DC)
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component Pin_Designator (R1_DC)
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component Pin_Designator (R3_DC)
+Added Member To Class: ClassName=U_DriverCircuit2 Member=Component Pin_Designator (C1_DC)
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component Pin_Designator (C2_DC)
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component Pin_Designator (R3_DC)
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component Pin_Designator (R2_DC)
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component Pin_Designator (R4_DC)
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component Pin_Designator (*1_DC)
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component Pin_Designator (R1_DC)
+Added Member To Class: ClassName=U_DriverCircuit3 Member=Component Pin_Designator (C1_DC)
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component Pin_Designator (C2_DC)
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component Pin_Designator (R1_DC)
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component Pin_Designator (R3_DC)
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component Pin_Designator (R4_DC)
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component Pin_Designator (*1_DC)
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component Pin_Designator (R2_DC)
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component Pin_Designator (C1_DC)
+Added Room: Name=PowerFull_car_engineSteering
+Added Room: Name=U_DriverCircuit1
+Added Room: Name=U_DriverCircuit2
+Added Room: Name=U_DriverCircuit3
+Added Room: Name=U_DriverCircuit4

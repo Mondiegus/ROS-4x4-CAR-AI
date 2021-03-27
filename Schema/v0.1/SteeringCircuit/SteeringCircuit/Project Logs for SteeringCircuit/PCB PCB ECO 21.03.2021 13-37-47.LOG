@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=*1_DC.2 Old Footprint=BD63150AFM-E2 New Footprint=Rohm_HSOP-M36_MFG
+Change Component Footprint: Designator=*1_DC.3 Old Footprint=BD63150AFM-E2 New Footprint=Rohm_HSOP-M36_MFG
+Change Component Footprint: Designator=*1_DC.4 Old Footprint=BD63150AFM-E2 New Footprint=Rohm_HSOP-M36_MFG
+Change Component Footprint: Designator=*1_DC.5 Old Footprint=BD63150AFM-E2 New Footprint=Rohm_HSOP-M36_MFG
+Change Component Footprint: Designator=DCDC Old Footprint=SOT563 New Footprint=SOT-563-6

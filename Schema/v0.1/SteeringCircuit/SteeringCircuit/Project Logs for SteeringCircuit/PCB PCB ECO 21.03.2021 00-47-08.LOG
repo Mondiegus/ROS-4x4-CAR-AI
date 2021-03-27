@@ -1,0 +1,155 @@
+Change Component Footprint: Designator=D13_m.6 Old Footprint=1608[0603] New Footprint=3.2X1.6X1.1
+Change Component Footprint: Designator=D14_m.6 Old Footprint=1608[0603] New Footprint=3.2X1.6X1.1
+Change Component Footprint: Designator=L1_5V.1 Old Footprint=1608[0603] New Footprint=0402-A
+Change Component Footprint: Designator=R1 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R1_5V.1 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R1_DC.3 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R1_DC.4 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R1_DC.5 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R1_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R2 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R2_5V.1 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R2_DC.3 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R2_DC.4 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R2_DC.5 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R2_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R3 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R3_DC.3 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R3_DC.4 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R3_DC.5 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R3_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R4 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R4_DC.3 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R4_DC.4 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R4_DC.5 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R4_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R5_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R6_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R7_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R8_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R9_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R10_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R11_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R12_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R13_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R14_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R15_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R16_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R17_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R18_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=R19_m.6 Old Footprint=1608[0603] New Footprint=AXIAL-0.3
+Change Component Footprint: Designator=F1_m.6 Old Footprint=1608[0603] New Footprint=PIN-W2/E2.8
+Change Component Footprint: Designator=F2_m.6 Old Footprint=1608[0603] New Footprint=PIN-W2/E2.8
+Change Component Footprint: Designator=F3_m.6 Old Footprint=1608[0603] New Footprint=PIN-W2/E2.8
+Change Component Footprint: Designator=F4_m.6 Old Footprint=1608[0603] New Footprint=PIN-W2/E2.8
+Change Component Footprint: Designator=F5_m.6 Old Footprint=1608[0603] New Footprint=PIN-W2/E2.8
+Change Component Footprint: Designator=C1_5V.1 Old Footprint=1608[0603] New Footprint=RAD-0.3
+Change Component Footprint: Designator=C2_5V.1 Old Footprint=1608[0603] New Footprint=RAD-0.3
+Change Component Footprint: Designator=C2_DC.2 Old Footprint=1608[0603] New Footprint=RAD-0.3
+Change Component Footprint: Designator=C2_DC.3 Old Footprint=1608[0603] New Footprint=RAD-0.3
+Change Component Footprint: Designator=C2_DC.4 Old Footprint=1608[0603] New Footprint=RAD-0.3
+Change Component Footprint: Designator=C2_DC.5 Old Footprint=1608[0603] New Footprint=RAD-0.3
+Change Component Footprint: Designator=C3_5V.1 Old Footprint=1608[0603] New Footprint=RAD-0.3
+Change Component Footprint: Designator=C4_5V.1 Old Footprint=1608[0603] New Footprint=RAD-0.3
+Change Component Comment : Designator=C1_DC.2 Old Comment=Pin_Designator New Comment=100µF
+Change Component Comment : Designator=C1_DC.3 Old Comment=Pin_Designator New Comment=100µF
+Change Component Comment : Designator=C1_DC.4 Old Comment=Pin_Designator New Comment=100µF
+Change Component Comment : Designator=C1_DC.5 Old Comment=Pin_Designator New Comment=100µF
+Change Component Comment : Designator=*1_DC.2 Old Comment=Pin_Designator New Comment=BD63150AFM-E2
+Change Component Comment : Designator=*1_DC.3 Old Comment=Pin_Designator New Comment=BD63150AFM-E2
+Change Component Comment : Designator=*1_DC.4 Old Comment=Pin_Designator New Comment=BD63150AFM-E2
+Change Component Comment : Designator=*1_DC.5 Old Comment=Pin_Designator New Comment=BD63150AFM-E2
+Change Component Comment : Designator=C1_5V.1 Old Comment=Pin_Designator New Comment=Cap
+Change Component Comment : Designator=C2_5V.1 Old Comment=Pin_Designator New Comment=Cap
+Change Component Comment : Designator=C2_DC.2 Old Comment=Pin_Designator New Comment=Cap
+Change Component Comment : Designator=C2_DC.3 Old Comment=Pin_Designator New Comment=Cap
+Change Component Comment : Designator=C2_DC.4 Old Comment=Pin_Designator New Comment=Cap
+Change Component Comment : Designator=C2_DC.5 Old Comment=Pin_Designator New Comment=Cap
+Change Component Comment : Designator=C3_5V.1 Old Comment=Pin_Designator New Comment=Cap
+Change Component Comment : Designator=C4_5V.1 Old Comment=Pin_Designator New Comment=Cap
+Change Component Comment : Designator=F1_m.6 Old Comment=Pin_Designator New Comment=Fuse 2
+Change Component Comment : Designator=F2_m.6 Old Comment=Pin_Designator New Comment=Fuse 2
+Change Component Comment : Designator=F3_m.6 Old Comment=Pin_Designator New Comment=Fuse 2
+Change Component Comment : Designator=F4_m.6 Old Comment=Pin_Designator New Comment=Fuse 2
+Change Component Comment : Designator=F5_m.6 Old Comment=Pin_Designator New Comment=Fuse 2
+Change Component Comment : Designator=P1_m.6 Old Comment=Pin_Designator New Comment=Header 2
+Change Component Comment : Designator=P2_m.6 Old Comment=Pin_Designator New Comment=Header 2
+Change Component Comment : Designator=P3_m.6 Old Comment=Pin_Designator New Comment=Header 2
+Change Component Comment : Designator=P5 Old Comment=Pin_Designator New Comment=Header 3
+Change Component Comment : Designator=P6 Old Comment=Pin_Designator New Comment=Header 3
+Change Component Comment : Designator=P7 Old Comment=Pin_Designator New Comment=Header 3
+Change Component Comment : Designator=P8 Old Comment=Pin_Designator New Comment=Header 3
+Change Component Comment : Designator=P4 Old Comment=Pin_Designator New Comment=Header 4
+Change Component Comment : Designator=P9_m.6 Old Comment=Pin_Designator New Comment=Header 4
+Change Component Comment : Designator=P10 Old Comment=Pin_Designator New Comment=Header 4
+Change Component Comment : Designator=P11 Old Comment=Pin_Designator New Comment=Header 4
+Change Component Comment : Designator=L1_5V.1 Old Comment=Pin_Designator New Comment=Inductor
+Change Component Comment : Designator=D13_m.6 Old Comment=Pin_Designator New Comment=LED2
+Change Component Comment : Designator=D14_m.6 Old Comment=Pin_Designator New Comment=LED2
+Change Component Comment : Designator=D1_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D2_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D3_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D4_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D5_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D6_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D7_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D8_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D9_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D10_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D11_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=D12_m.6 Old Comment=Pin_Designator New Comment=RBR2MM30ATFTR
+Change Component Comment : Designator=R1 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R1_5V.1 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R1_DC.3 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R1_DC.4 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R1_DC.5 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R1_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R2 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R2_5V.1 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R2_DC.3 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R2_DC.4 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R2_DC.5 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R2_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R3 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R3_DC.3 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R3_DC.4 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R3_DC.5 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R3_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R4 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R4_DC.3 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R4_DC.4 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R4_DC.5 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R4_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R5_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R6_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R7_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R8_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R9_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R10_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R11_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R12_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R13_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R14_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R15_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R16_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R17_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R18_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change Component Comment : Designator=R19_m.6 Old Comment=Pin_Designator New Comment=Res1
+Change component parameters: Designator = "L1_5V.1" ("L1_5V"); Footprint = "1608[0603]"; UniqueID = "\TBLQYOUI\SZUGYZKA" ("\TBLQYOUI\SZUGYZKA")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Added Component: Designator=*1_5V.1(SOT563)
+Added Pin To Net: NetName=GND Pin=*1_5V.1-1
+Added Pin To Net: NetName=Net*1_5V.1_2 Pin=*1_5V.1-2
+Added Pin To Net: NetName=Net*1_5V.1_3 Pin=*1_5V.1-3
+Added Pin To Net: NetName=Net*1_5V.1_4 Pin=*1_5V.1-4
+Added Pin To Net: NetName=Net*1_5V.1_5 Pin=*1_5V.1-5
+Added Pin To Net: NetName=Net*1_5V.1_6 Pin=*1_5V.1-6
+Added Member To Class: ClassName=U_5VCircuit Member=Component *1_5V.1 (*1_5V) AP62301Z6-7

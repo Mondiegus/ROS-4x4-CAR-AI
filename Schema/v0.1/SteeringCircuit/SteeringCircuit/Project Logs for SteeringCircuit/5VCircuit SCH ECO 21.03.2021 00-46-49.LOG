@@ -1,0 +1,8 @@
+Replace Part *1_5V AP62301Z6-7 in F:\GIT\ROS-4x4-CAR-AI\Schema\v0.1\SteeringCircuit\SteeringCircuit\5VCircuit.SchDoc with AP62301Z6-7 from Lib.SchLib
+Replace Part C1_5V Cap in F:\GIT\ROS-4x4-CAR-AI\Schema\v0.1\SteeringCircuit\SteeringCircuit\5VCircuit.SchDoc with Cap from Miscellaneous Devices.IntLib
+Replace Part C2_5V Cap in F:\GIT\ROS-4x4-CAR-AI\Schema\v0.1\SteeringCircuit\SteeringCircuit\5VCircuit.SchDoc with Cap from Miscellaneous Devices.IntLib
+Replace Part C3_5V Cap in F:\GIT\ROS-4x4-CAR-AI\Schema\v0.1\SteeringCircuit\SteeringCircuit\5VCircuit.SchDoc with Cap from Miscellaneous Devices.IntLib
+Replace Part C4_5V Cap in F:\GIT\ROS-4x4-CAR-AI\Schema\v0.1\SteeringCircuit\SteeringCircuit\5VCircuit.SchDoc with Cap from Miscellaneous Devices.IntLib
+Replace Part L1_5V Inductor in F:\GIT\ROS-4x4-CAR-AI\Schema\v0.1\SteeringCircuit\SteeringCircuit\5VCircuit.SchDoc with Inductor from Miscellaneous Devices.IntLib
+Replace Part R1_5V Res1 in F:\GIT\ROS-4x4-CAR-AI\Schema\v0.1\SteeringCircuit\SteeringCircuit\5VCircuit.SchDoc with Res1 from Miscellaneous Devices.IntLib
+Replace Part R2_5V Res1 in F:\GIT\ROS-4x4-CAR-AI\Schema\v0.1\SteeringCircuit\SteeringCircuit\5VCircuit.SchDoc with Res1 from Miscellaneous Devices.IntLib

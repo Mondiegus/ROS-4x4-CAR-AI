@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=12V Pin=F1_m.6-1
+Added Pin To Net: NetName=12V Pin=F2_m.6-2
+Added Pin To Net: NetName=12V Pin=F3_m.6-2
+Added Pin To Net: NetName=12V Pin=F4_m.6-2
+Added Pin To Net: NetName=12V Pin=F5_m.6-2
+Added Pin To Net: NetName=12V Pin=P1_m.6-1
+Added Pin To Net: NetName=12V Pin=P3_m.6-2
+Added Net: Name=12V

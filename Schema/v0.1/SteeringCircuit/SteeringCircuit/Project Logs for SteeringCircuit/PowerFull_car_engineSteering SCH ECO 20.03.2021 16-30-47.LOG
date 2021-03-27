@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=*1 NewDesignator=RL
+Change Component Designator: OldDesignator=RL NewDesignator=RR
+Change Component Designator: OldDesignator=RR NewDesignator=FL
+Change Component Designator: OldDesignator=FL NewDesignator=FR

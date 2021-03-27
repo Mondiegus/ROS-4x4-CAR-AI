@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=F5 NewDesignator=F5_m.6
+Added Room: Name=PowerFull_car_engineSteering
+Added Room: Name=U_5VCircuit
+Added Room: Name=U_DriverCircuit1
+Added Room: Name=U_DriverCircuit2
+Added Room: Name=U_DriverCircuit3
+Added Room: Name=U_DriverCircuit4

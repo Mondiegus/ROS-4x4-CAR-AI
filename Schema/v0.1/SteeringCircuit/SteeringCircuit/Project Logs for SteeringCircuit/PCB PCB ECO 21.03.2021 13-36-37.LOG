@@ -1,0 +1,20 @@
+Removed Member From Class: ClassName=U_DriverCircuit4 Member=R3
+Removed Member From Class: ClassName=U_DriverCircuit4 Member=R4
+Change Component Designator: OldDesignator=C1 NewDesignator=C1_DC.5
+Change Component Designator: OldDesignator=C2 NewDesignator=C2_DC.5
+Change Component Designator: OldDesignator=DCDC NewDesignator=*1_5V.1
+Change Component Designator: OldDesignator=F2 NewDesignator=F2_m.6
+Change Component Designator: OldDesignator=F3 NewDesignator=F3_m.6
+Change Component Designator: OldDesignator=F4 NewDesignator=F4_m.6
+Change Component Designator: OldDesignator=F5 NewDesignator=F5_m.6
+Change Component Designator: OldDesignator=P3 NewDesignator=P3_m.6
+Change Component Designator: OldDesignator=R3 NewDesignator=R3_DC.5
+Change Component Designator: OldDesignator=R4 NewDesignator=R4_DC.5
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component R3_DC.5 (R3_DC) Res1
+Added Member To Class: ClassName=U_DriverCircuit4 Member=Component R4_DC.5 (R4_DC) Res1
+Added Room: Name=PowerFull_car_engineSteering
+Added Room: Name=U_5VCircuit
+Added Room: Name=U_DriverCircuit1
+Added Room: Name=U_DriverCircuit2
+Added Room: Name=U_DriverCircuit3
+Added Room: Name=U_DriverCircuit4
